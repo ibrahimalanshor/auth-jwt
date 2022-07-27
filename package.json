@@ -1,14 +1,14 @@
 {
-  "name": "auth-jwt",
+  "name": "@ibrahimanshor/auth-jwt",
   "version": "0.0.1",
-  "description": "",
+  "description": "## Instal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ibrahim Al Anshor",
   "license": "ISC",
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
@@ -22,5 +22,16 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimalanshor/auth-jwt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibrahimalanshor/auth-jwt/issues"
+  },
+  "homepage": "https://github.com/ibrahimalanshor/auth-jwt#readme"
 }
